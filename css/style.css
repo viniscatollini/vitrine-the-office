@@ -115,9 +115,11 @@ padding: 5%;
     display: flex;
   background-color: #F4F5F7;
   padding: 1px;
-  justify-content: space-evenly;
+  gap: 35px;
+  justify-content: center;
   flex-wrap: wrap;
   font-size: 17px;
+  padding-bottom: 25px;
 }
 
 #rodape p {
