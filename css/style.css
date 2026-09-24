@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #F4F5F7;
+  align-items: center;
+  padding-bottom: 50px;
+} 
+
+main {
+  padding: 20px;
+  background-color: #F4F5F7;
+}
+
+#header-esquerda p {
+  color: black;
+  font-weight: medium;
+  font-size: 30px;
+}
+
+.texto-pequeno {
+  color: #5C6479;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+#header-direita{
+  display: flex;
+  gap: 20px;
+}
+
+#header-direita p{
+ color: black;
+ font-weight: bold;
+ font-family: Arial;
+}
+
+#destaque {
+  background-color: rgb(182, 190, 196);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+#destaque-txt h1{
+  color: #2D3142;
+  font-size: 80px;
+}
+
+#destaque-txt p{
+  font-size: 20px;
+}
+
+#destaque-img img {
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+#galeria {
+padding: 5%;
+}
+
+#galeria-txt {
+  padding: 20px;
+}
+
+#galeria-txt h2{
+  color: #2D3142;
+  font-size: 48px;
+}
+
+.card {
+  background-color: rgb(182, 190, 196);
+  width: 26%;
+  border-radius: 10px;
+}
+
+.card img{
+  width: 100%;
+  border-radius: 7px;
+  height: 225px;
+  object-fit: cover;
+}
+
+.card h3{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-txt {
+  padding: 20px;
+}
+
+#galeria-cards{
+  display: flex;
+  padding: 20px;
+  gap: 30px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#rodape {
+    display: flex;
+  background-color: #F4F5F7;
+  padding: 1px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-size: 17px;
+}
+
+#rodape p {
+  font-weight: bold;
+  font-family: Arial;
+  color: #36373b;
+}
